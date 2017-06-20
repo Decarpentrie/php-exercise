@@ -52,11 +52,14 @@
 
 // exercice 7
 
-	for ($i=1; $i <= 100 ; $i++) { 
-		echo "$i On tient le bon bout";
+	// for ($i=1; $i <= 100 ; $i+=15) { 
+	// 	echo "$i On tient le bon bout";
+	// }
+
+// exercice 8
+	for ($i=200; $i >=0 ; $i-=15) { 
+		echo "$i Enfin !!!!!!!!";
 	}
-
-
 
 ?>
 
