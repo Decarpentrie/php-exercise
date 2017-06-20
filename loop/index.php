@@ -39,9 +39,22 @@
 // 	};	
 
 // exercice 5
-	for ($i = 1; $i <= 15; $i++){
-		echo "$i On y arrive presque" ;
+	
+	// for ($i = 1; $i <= 15; $i++){
+	// 	echo "$i On y arrive presque" ;
+	// };
+
+// exercice 6
+
+	for ($i=20; $i>=0 ; $i--) { 
+		echo "$i C'est presque bon";
 	};
+
+
+
+
+
+
 
 ?>
 
