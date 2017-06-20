@@ -8,14 +8,17 @@
 
 // exercice 2
 
-	function string($string="coucou"){
-		echo $string;
+	// function word($word="coucou"){
+	// 	echo $word;
+	// }
+	// word();
+
+// exercice 3
+
+	function wordTwo($wordOne="youhou", $wordWord="hop"){
+		echo $wordOne, $wordWord;
 	}
-	string();
-
-
-
-
+	wordTwo();
 
 
 
