@@ -13,6 +13,10 @@
   		echo $i;
 	}	
 
+// exercice 2
+
+	for ($k = 0, $j = 50; $k <= 20;  print $k*$j, $k++);
+
 ?>
 
 </body>
