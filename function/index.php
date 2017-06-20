@@ -22,16 +22,28 @@
 
 // exercice 4
 
-	function number($a=15, $b=13){
-		if ($a>$b){
-			echo "le premier nombre est plus grand";
-		}else if($a<$b){
-			echo "le premier nombre est plus petit";
-		}else{
-			echo "les deux nombres sont identique";
-		};
-	};
-	number()
+	// function number($a=15, $b=13){
+	// 	if ($a>$b){
+	// 		echo "le premier nombre est plus grand";
+	// 	}else if($a<$b){
+	// 		echo "le premier nombre est plus petit";
+	// 	}else{
+	// 		echo "les deux nombres sont identique";
+	// 	};
+	// };
+	// number()
+
+// exercice 5
+
+	function wordNumber($h=15, $l="youhou"){
+		echo $h, $l;
+	}
+	wordNumber();
+
+
+
+
+
 
 
 
