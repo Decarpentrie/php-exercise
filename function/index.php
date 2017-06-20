@@ -35,15 +35,17 @@
 
 // exercice 5
 
-	function wordNumber($h=15, $l="youhou"){
-		echo $h, $l;
+	// function wordNumber($h=15, $l="youhou"){
+	// 	echo $h, $l;
+	// }
+	// wordNumber();
+
+// exercice 6
+
+	function string($nom="pierre", $prenom="paul", $age="98"){
+		echo "Bonjour ", $nom," ", $prenom, " tu a ", $age , "ans" ;
 	}
-	wordNumber();
-
-
-
-
-
+	string();
 
 
 
