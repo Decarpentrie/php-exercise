@@ -32,12 +32,16 @@
 
 // exercice 4
 
-for ($i = 1; $i <= 10; $i++) {
-		if($i<10){
-			echo  $i+$i/2;	
-		}   		
-	};	
-	
+// for ($i = 1; $i <= 10; $i++) {
+// 		if($i<10){
+// 			echo  $i+$i/2;	
+// 		}   		
+// 	};	
+
+// exercice 5
+	for ($i = 1; $i <= 15; $i++){
+		echo "$i On y arrive presque" ;
+	};
 
 ?>
 
