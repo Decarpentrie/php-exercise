@@ -46,13 +46,15 @@
 
 // exercice 6
 
-	for ($i=20; $i>=0 ; $i--) { 
-		echo "$i C'est presque bon";
-	};
+	// for ($i=20; $i>=0 ; $i--) { 
+	// 	echo "$i C'est presque bon";
+	// };
 
+// exercice 7
 
-
-
+	for ($i=1; $i <= 100 ; $i++) { 
+		echo "$i On tient le bon bout";
+	}
 
 
 
