@@ -15,7 +15,15 @@
 
 // exercice 2
 
-	for ($k = 0, $j = 50; $k <= 20;  print $k*$j, $k++);
+	for ($k = 0, $j = 50; $k <= 20; $k++){
+		  print $k*$j;
+	};
+
+// exercice 3
+
+	for ($e=100, $c = 20; $e >=10 ; $e--) { 
+		print $e*$c;
+	}
 
 ?>
 
