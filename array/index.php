@@ -43,7 +43,12 @@
  
 // exercice 6
 
-	print_r($region[59])
+	// print_r($region[59])
+
+// exercice 7 
+
+	$region[51] = "marne";
+	var_dump($region);
 
 
 
