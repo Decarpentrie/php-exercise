@@ -8,4 +8,7 @@
 <!-- <a href="index2.php?dateDebut=2/05/2016&amp;dateFin=27/11/2016">Date</a> -->
 
 <!-- exercice 4 -->
-<a href="index2.php?langage=PHP&amp;serveur=LAMP">lanserv</a>
+<!-- <a href="index2.php?langage=PHP&amp;serveur=LAMP">lanserv</a> -->
+
+<!-- exercice 5 -->
+<a href="index2.php?semaine=12">semaine</a>

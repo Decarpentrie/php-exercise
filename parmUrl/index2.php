@@ -8,4 +8,7 @@
 <!-- <p>date: <?php echo $_GET['dateDebut']. ' ' . $_GET['dateFin']; ?> </p> -->
 
 <!-- exercice 4 -->
-<p>langage et serveur: <?php echo $_GET['langage']. ' ' . $_GET['serveur']; ?> </p>
+<!-- <p>langage et serveur: <?php echo $_GET['langage']. ' ' . $_GET['serveur']; ?> </p> -->
+
+<!-- exercice 5 -->
+<p>nb semaine: <?php echo $_GET["semaine"]; ?></p>
