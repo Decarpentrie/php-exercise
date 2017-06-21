@@ -33,11 +33,16 @@
 // exercice 5
 
 	$region= array(
-			"02"	=> "aisne",
-			"59"	=> "nord",
-			"60"  => "oise",
-			"62"	=> "Pas-de-calais",
-			"80"	=> "somme",
+			'numDepartement1' =>"02",
+			'departement1'=> "aisne",
+			'numDepartement2' =>"59", 
+			'departement2'=> "nord",
+			'numDepartement3' =>"60", 
+			'departement4'=> "oise",
+			'numDepartement5' =>"62", 
+			'departement5'=> "Pas-de-calais",
+			'numDepartement6' =>"80", 
+			'departement6'=> "somme",
 		);
 	// var_dump($region);
  
@@ -57,9 +62,20 @@
 
 // exercice 9
 	
-	foreach ($region as $regions ) {
-		  echo $regions ;
-	}
+	// foreach ($region as $regions ) {
+	// 	  echo $regions ;
+	// }
+
+// exercice 10 
+
+	echo "Le département ", $region["departement1"], " a le numero ", $region["numDepartement1"] ;
+	echo "Le département ", $region["departement2"], " a le numero ", $region["numDepartement2"] ;
+	echo "Le département ", $region["departement3"], " a le numero ", $region["numDepartement3"] ;
+	echo "Le département ", $region["departement4"], " a le numero ", $region["numDepartement4"] ;
+	echo "Le département ", $region["departement5"], " a le numero ", $region["numDepartement5"] ;	
+	echo "Le département ", $region["departement6"], " a le numero ", $region["numDepartement6"] ;
+
+
 
 
  ?>
