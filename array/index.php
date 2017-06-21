@@ -39,8 +39,12 @@
 			62	=> "Pas-de-calais",
 			80	=> "somme",
 		);
-
-	var_dump($region);
+	// var_dump($region);
  
+// exercice 6
+
+	print_r($region[59])
+
+
 
  ?>
