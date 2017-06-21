@@ -42,10 +42,29 @@
 
 // exercice 6
 
-	function string($nom="pierre", $prenom="paul", $age="98"){
-		echo "Bonjour ", $nom," ", $prenom, " tu a ", $age , "ans" ;
+	// function string($nom="pierre", $prenom="paul", $age="98"){
+	// 	echo "Bonjour ", $nom," ", $prenom, " tu a ", $age , " ans" ;
+	// }
+	// string();
+
+// exercice 7
+
+	function ageGenre($age=20, $genre= "femme"){
+		if ($age < 18 && $genre === "homme" ) {
+			echo "Vous êtes un homme et vous êtes majeur" ;
+		}else if ($age > 18 && $genre === "homme" ) {
+			echo "Vous êtes un homme et vous êtes mineur";
+		}else if ($age > 18 && $genre === "femme") {
+			echo "Vous êtes une femme et vous êtes majeur";
+		}else if ($age > 18 && $genre === "femme") {
+			echo "Vous êtes une femme et vous êtes mineur";
+		}
 	}
-	string();
+	ageGenre();
+
+
+
+
 
 
 
