@@ -17,7 +17,15 @@
 		"Decembre"
 	);
 
-// exercie 2
+// exercice 2
+
+	// print_r($mois[3])
+
+
+
+
+
+// exercie 3
 
 print_r($mois[5])
 
