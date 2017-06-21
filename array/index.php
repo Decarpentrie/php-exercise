@@ -47,9 +47,12 @@
 
 // exercice 7 
 
-	$region[51] = "marne";
-	var_dump($region);
+	// $region[51] = "marne";
+	// var_dump($region);
 
-
+// exercice 8 
+	for ($i = 0; $i <= 12; $i++) {
+		echo $mois[$i];
+	}
 
  ?>
