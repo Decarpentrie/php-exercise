@@ -10,7 +10,7 @@
 		"Mai", 
 		"Juin", 
 		"Juillet", 
-		"Aout", 
+		"Aout",
 		"Septembre", 
 		"Octobre", 
 		"Novembre", 
@@ -21,15 +21,14 @@
 
 	// print_r($mois[3])
 
-
-
-
-
 // exercie 3
 
-print_r($mois[5])
+// print_r($mois[5])
 
+// exercice 4
 
+	$mois[7]= "Août";
+	var_dump($mois)
 
 
 
