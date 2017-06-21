@@ -33,26 +33,33 @@
 // exercice 5
 
 	$region= array(
-			02	=> "aisne",
-			59	=> "nord",
-			60  => "oise",
-			62	=> "Pas-de-calais",
-			80	=> "somme",
+			"02"	=> "aisne",
+			"59"	=> "nord",
+			"60"  => "oise",
+			"62"	=> "Pas-de-calais",
+			"80"	=> "somme",
 		);
 	// var_dump($region);
  
 // exercice 6
 
-	// print_r($region[59])
+	// print_r($region["59"])
 
 // exercice 7 
 
-	// $region[51] = "marne";
+	$region["51"] = "marne";
 	// var_dump($region);
 
 // exercice 8 
-	for ($i = 0; $i <= 12; $i++) {
-		echo $mois[$i];
+	// for ($i = 0; $i <= 12; $i++) {
+	// 	echo $mois[$i];
+	// }
+
+// exercice 9
+	
+	foreach ($region as $regions ) {
+		  echo $regions ;
 	}
+
 
  ?>
