@@ -11,4 +11,7 @@
 <!-- <p>langage et serveur: <?php echo $_GET['langage']. ' ' . $_GET['serveur']; ?> </p> -->
 
 <!-- exercice 5 -->
-<p>nb semaine: <?php echo $_GET["semaine"]; ?></p>
+<!-- <p>nb semaine: <?php echo $_GET["semaine"]; ?></p> -->
+
+<!-- exercice 6 -->
+<p>batiment et salle: <?php echo $_GET["batiment"]. ' '.$_GET["salle"]; ?></p>

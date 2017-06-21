@@ -11,4 +11,7 @@
 <!-- <a href="index2.php?langage=PHP&amp;serveur=LAMP">lanserv</a> -->
 
 <!-- exercice 5 -->
-<a href="index2.php?semaine=12">semaine</a>
+<!-- <a href="index2.php?semaine=12">semaine</a> -->
+
+<!-- exercice 6 -->
+<a href="index2.php?batiment=12&salle=101">endroit</a>
