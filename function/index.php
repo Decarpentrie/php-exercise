@@ -49,23 +49,25 @@
 
 // exercice 7
 
-	function ageGenre($age=20, $genre= "femme"){
-		if ($age < 18 && $genre === "homme" ) {
-			echo "Vous êtes un homme et vous êtes majeur" ;
-		}else if ($age > 18 && $genre === "homme" ) {
-			echo "Vous êtes un homme et vous êtes mineur";
-		}else if ($age > 18 && $genre === "femme") {
-			echo "Vous êtes une femme et vous êtes majeur";
-		}else if ($age > 18 && $genre === "femme") {
-			echo "Vous êtes une femme et vous êtes mineur";
-		}
-	}
-	ageGenre();
+	// function ageGenre($age=20, $genre= "femme"){
+	// 	if ($age < 18 && $genre === "homme" ) {
+	// 		echo "Vous êtes un homme et vous êtes majeur" ;
+	// 	}else if ($age > 18 && $genre === "homme" ) {
+	// 		echo "Vous êtes un homme et vous êtes mineur";
+	// 	}else if ($age > 18 && $genre === "femme") {
+	// 		echo "Vous êtes une femme et vous êtes majeur";
+	// 	}else if ($age > 18 && $genre === "femme") {
+	// 		echo "Vous êtes une femme et vous êtes mineur";
+	// 	}
+	// }
+	// ageGenre();
 
+// exercice 8
 
-
-
-
+	function addition($f=2, $e=5, $q=5){
+		echo $f+$e+$q;
+	};
+	addition();
 
 
 
