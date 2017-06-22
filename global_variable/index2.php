@@ -13,6 +13,9 @@
 	<title></title>
 </head>
 <body>
-<?php echo "re-coucou ".  $_SESSION['nom']. ", ". $_SESSION['prenom'] ; ?>
+	<?php 
+		// echo "re-coucou ".  $_SESSION['nom']. ", ". $_SESSION['prenom'] ;
+		echo "re-coucou ".  $_COOKIE['pseudo']. ", ". $_COOKIE['password'] ;
+ 	?>
 </body>
 </html>

@@ -11,6 +11,11 @@
 
 	$_SESSION['nom']='peuplu';
 	$_SESSION['prenom']='jean';
+
+
+	setcookie('pseudo','peuplu', time() + 365*24*3600, null, null, false, true);
+	setcookie('password','jean', time() + 365*24*3600, null, null, false, true);
+
 ?>
 
 
@@ -22,9 +27,19 @@
 </head>
 <body>
 
-<p><?php echo "hey ". $_SESSION['nom']. ", ". $_SESSION['prenom'] ?></p>
-<a href="index2.php">index n°2</a>
+	<p><?php echo "hey ". $_SESSION['nom']. ", ". $_SESSION['prenom'] ?></p>
+	<a href="index2.php">index n°2</a>
 
+	<form>
+		<label>Pseudo</label>
+		<input type="texte" name="pseudo">
+		<label>Mot de passe</label>
+		<input type="password" name="password">
+		<input type="submit" name="OK">
+
+
+
+	</form>
 
 </body>
 </html>
