@@ -43,9 +43,11 @@
 
 	// exercice 6
 	$nb_jour_de_juin_2017 = date("t", mktime(0,0,0,7,0,2017));
-	echo "<br> $nb_jour_de_juin_2017";
+	echo "<br> $nb_jour_de_juin_2017 <br>";
 
-
+	// exercice 7
+	$date3= '22-06-2017';
+	echo date('d-m-Y', strtotime($date3.' + 20 DAY'));
 
 
 
