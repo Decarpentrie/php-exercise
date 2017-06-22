@@ -9,4 +9,7 @@
 	$dateTwo = date('d-m-Y');
 	echo "<br> $dateTwo";
 
+	// exercice 3
+	setlocale(LC_TIME, 'fr_FR.UTF8');
+	echo '<br>'. strftime('%A %d %B %Y ');
  ?>
