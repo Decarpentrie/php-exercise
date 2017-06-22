@@ -41,6 +41,7 @@
 		<input type="text" name="nom"/>
 		<label>prénom</label>
 		<input type="text" name="prenom"/>
+		<input type="file" name="fichier">
 		<input type="submit" value="OK" />
 	</form>
 	
@@ -51,6 +52,24 @@
 		echo "coucou $choix $nom $prenom !" ;
 
 	?>
+
+<!-- exercice 6 -->
+
+
+<!-- exercice 7 -->
+<?php 
+	$_FILES['icone']['name'];     
+	$_FILES['icone']['type'];     
+	$_FILES['icone']['size'];     
+	$_FILES['icone']['tmp_name']; 
+	$_FILES['icone']['error']; 
+ ?>
+
+
+
+
+
+
 
 </body>
 </html>
