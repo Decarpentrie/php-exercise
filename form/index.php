@@ -14,7 +14,7 @@
 	</form> -->
 
 <!-- exercice 2 et 4 -->
-	<form action="user.php" method="post">
+	<form action="index.php" method="post">
 		<label>prénom</label>
 		<input type="text" name="nom"/>
 		<label>nom</label>
@@ -22,7 +22,13 @@
 		<input type="submit" value="OK" />
 	</form>
 
+<?php 
+$nom= $_POST['nom'];
+$prenom = $_POST['prenom'];
 
+echo ("nom: $nom, prenom: $prenom");
+
+ ?>
 
 
 </body>
