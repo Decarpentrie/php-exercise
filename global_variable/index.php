@@ -16,6 +16,8 @@
 	setcookie('pseudo','peuplu', time() + 365*24*3600, null, null, false, true);
 	setcookie('password','jean', time() + 365*24*3600, null, null, false, true);
 
+	// exercice 5
+	setcookie('pseudo','enemare', time() + 365*24*3600, null, null, false, true )
 ?>
 
 
