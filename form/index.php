@@ -65,10 +65,7 @@
 	$_FILES['icone']['error']; 
  ?>
 
-
-
-
-
+<!-- exercice 8 -->
 
 
 </body>
