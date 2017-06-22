@@ -15,6 +15,7 @@
 <body>
 	<?php 
 		// echo "re-coucou ".  $_SESSION['nom']. ", ". $_SESSION['prenom'] ;
+	// exercice 4
 		echo "re-coucou ".  $_COOKIE['pseudo']. ", ". $_COOKIE['password'] ;
  	?>
 </body>

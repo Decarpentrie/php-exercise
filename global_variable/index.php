@@ -12,7 +12,7 @@
 	$_SESSION['nom']='peuplu';
 	$_SESSION['prenom']='jean';
 
-
+	// exercice 3
 	setcookie('pseudo','peuplu', time() + 365*24*3600, null, null, false, true);
 	setcookie('password','jean', time() + 365*24*3600, null, null, false, true);
 
