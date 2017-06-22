@@ -40,7 +40,11 @@
 	}
 
 	print_r( dateDiff($now, $date2));
-	
+
+	// exercice 6
+	$nb_jour_de_juin_2017 = date("t", mktime(0,0,0,7,0,2017));
+	echo "<br> $nb_jour_de_juin_2017";
+
 
 
 
